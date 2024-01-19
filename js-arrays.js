@@ -16,4 +16,9 @@ console.log(b);
 //Create an array to store companies -> “Bloomberg” , “Microsoft” , “Uber”, “Google” , “IBM” , “Netflix” a. Remove the first company from the array b. Remove Uber & Add Ola in its place c. Add Amazon at the end
 let c=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
 //a
-console.log(c.shift());
+c.shift();
+console.log(c);
+c.splice(1,1,"Ola");
+console.log(c);
+c.push("Amazon");
+console.log(c);
